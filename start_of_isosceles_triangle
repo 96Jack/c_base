@@ -1,0 +1,26 @@
+#define _CRT_SECURE_NO_WARNINGS
+#include<stdio.h>
+#include<sting>
+#include<stdlib.h>
+
+int main()
+{
+	int row;
+	printf("请输入星星的数量:\n");
+	scanf("d%",&row);
+	for (int i = 1;i<=row;i++)
+	{
+		for (int j = 1;j <= row-1;j++)
+		{
+			printf(" ")
+		}
+	for(int k=1;k<=i*2-1;k++ )
+	{
+		printf("*");
+	}
+	printf("\n");
+	}
+	system("pause");
+	return 	EXIT_SUCCESS;
+
+}
